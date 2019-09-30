@@ -2,8 +2,8 @@
 
 == Run the Sample
 
-* Build the sample -> `./gradlew clean build`
-* Run UAA Server -> `./gradlew -b uaa-server/build.gradle uaa`
-* Run Gateway -> `./gradlew -b gateway/build.gradle bootRun`
-* Run Resource Server -> `./gradlew -b resource-server/build.gradle bootRun`
+* Build the sample -> `mvn clean package`
+* Run UAA Server -> `mvn -f uaa-server/pom.xml -P cargo.run`
+* Run Gateway -> `mvn -f gateway/pom.xml -P spring-boot.run`
+* Run Resource Server -> `mvn -f resource-server/pom.xml spring-boot.run`
 * Go to `http://localhost:8080` and login to UAA using *user1/password*

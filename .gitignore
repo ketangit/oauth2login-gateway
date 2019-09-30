@@ -1,24 +1,28 @@
-classes/
-target/
-*/src/*/java/META-INF
-*/src/META-INF/
-*/src/*/java/META-INF/
+# Eclipse
 .classpath
-.springBeans
 .project
-.DS_Store
 .settings/
+.externalToolBuilders/
+
+# Intellij
 .idea/
-out/
-bin/
-intellij/
-build/
-*.log
-*.log.*
 *.iml
-*.ipr
 *.iws
-.gradle/
-atlassian-ide-plugin.xml
-!etc/eclipse/.checkstyle
-.checkstyle
+*.ipr
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+.idea/misc.xml
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
